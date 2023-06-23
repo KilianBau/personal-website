@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(104, 223, 83);
+}
+
+.headliner {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(208, 245, 75);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px;
+  color: rgb(10, 9, 9);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(208, 245, 75);
+  border-radius: 8px;
+  color: rgb(8, 3, 3);
+  box-shadow: 4px 4px;
+  margin: 8px;
+}
+
+.list-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*#nav ul li a {
+    text-decoration: none;
+    color: black;
+  }*/
+
+/* #nav .list-nav li a {
+    text-decoration: none;
+    color: black;
+  } */
+
+/*.list-nav li a {
+  text-decoration: none;
+  color: black;
+} */
+
+h2 {
+  background-color: rgb(208, 245, 75);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: underline;
+  box-shadow: 4px 4px;
+}
+
+.text {
+  background-color: rgb(201, 223, 103);
+  border-radius: 8px;
+  box-shadow: 2px 2px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
