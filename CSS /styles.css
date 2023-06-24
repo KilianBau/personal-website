@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(104, 223, 83);
+}
+
+.headliner {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(208, 245, 75);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px;
+  color: rgb(10, 9, 9);
+  width: 50%;
+  margin: auto;
+  justify-content: start;
+}
+
+.nav-bar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: rgb(8, 3, 3);
+  position: fixed;
+  top: 0;
+  width: 10%;
+  background: transparent;
+  font-weight: 700;
+}
+
+.list-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*#nav ul li a {
+    text-decoration: none;
+    color: black;
+  }*/
+
+/* #nav .list-nav li a {
+    text-decoration: none;
+    color: black;
+  } */
+
+/*.list-nav li a {
+  text-decoration: none;
+  color: black;
+} */
+
+h2 {
+  background-color: rgb(208, 245, 75);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: underline;
+  box-shadow: 4px 4px;
+}
+
+.text {
+  margin: 20px 10%;
+  border: 5px solid #252629;
+  padding: 3% 10%;
+  border-radius: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(253, 253, 253);
+}
