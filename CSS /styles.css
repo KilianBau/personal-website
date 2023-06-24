@@ -10,25 +10,31 @@ body {
   box-shadow: 4px 4px;
   color: rgb(10, 9, 9);
   width: 50%;
-  margin: 0 auto;
+  margin: auto;
+  justify-content: start;
 }
 
 .nav-bar {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  background-color: rgb(208, 245, 75);
-  border-radius: 8px;
   color: rgb(8, 3, 3);
-  box-shadow: 4px 4px;
-  margin: 8px;
+  position: fixed;
+  top: 0;
+  width: 10%;
+  background: transparent;
+  font-weight: 700;
 }
 
 .list-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+nav ul li {
+  display: inline-block;
 }
 
 nav ul li a {
@@ -60,9 +66,11 @@ h2 {
 }
 
 .text {
-  background-color: rgb(201, 223, 103);
-  border-radius: 8px;
-  box-shadow: 2px 2px;
-  text-align: center;
+  margin: 20px 10%;
+  border: 5px solid #252629;
+  padding: 3% 10%;
+  border-radius: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(253, 253, 253);
 }
